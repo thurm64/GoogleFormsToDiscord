@@ -3,7 +3,7 @@
 
 ### Using the project
 #### Instructions
-**MAKE SURE TO SAVE FILES WHEN CHANGING THEM IN THE SCRIPT EDITOR**
+**!!! IMPORTANT: MAKE SURE TO SAVE FILES WHEN CHANGING THEM IN THE SCRIPT EDITOR !!!**
 - In the Google Form that you want to add, click on the three dots, then click on "Script editor"
 - In the editor, paste the code in from Code.gs
 - Now, in the editor, create a new file by clicking on the "+" next to "Files". Select "Script", and name the file Config.gs; paste the contents into the newly created file.
