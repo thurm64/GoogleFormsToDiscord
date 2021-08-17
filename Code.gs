@@ -1,4 +1,4 @@
-// These are the inner workings of the code. You probably don't need to change any of this
+// Here's the inner workings of the code. You probably don't need to change any of this
 
 // Run this function once. It will set up the trigger to detect form submission
 function initialize() {
@@ -22,7 +22,7 @@ function processForm(data) {
     var item = responses[i];
     var question = item.getItem().getTitle();
     var answer = item.getResponse();
-    if(name == "" && question.includes("discord id")) {
+    if(name == "" && question.includes(config.tag_question_keyword)) {
       name = answer;
     } else {
       fields.push(generateField(question, answer))
