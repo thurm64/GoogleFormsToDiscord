@@ -5,4 +5,6 @@
 - In the Google Form, click on the three dots, then click on "Script editor"
 - In the editor, paste the code in from Code.gs
 - Now, in the editor, create a new file by clicking on the "+" next to "Files". Select "Script", and name the file Config.gs; paste the contents into the newly created file.
-- Fill out the values of Config.gs to your liking.
+- Fill out the values of Config.gs to your liking. Remember to fill out the form and webhook URLs.
+- Now, go to Code.gs. Press run once to configure the webhook.
+- If all worked correctly, your form should be hooked up to the webhook.
