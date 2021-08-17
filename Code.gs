@@ -22,7 +22,7 @@ function processForm(data) {
     var item = responses[i];
     var question = item.getItem().getTitle();
     var answer = item.getResponse();
-    if(name == "" && question.includes(config.tag_question_keyword)) {
+    if(name == "" && question.includes(options.tag_question_keyword)) {
       name = answer;
     } else {
       fields.push(generateField(question, answer))
