@@ -1,7 +1,7 @@
-// Here's the inner workings of the code. You probably don't need to change any of this
+// These are the inner workings of the code. You probably don't need to change any of this
 
-// Run this function once. It will set up the hook to detect form submission
-function myFunction() {
+// Run this function once. It will set up the trigger to detect form submission
+function initialize() {
   var form = FormApp.openByUrl(options.form_url);
   //Create a trigger to run every time someone submits the form.
   ScriptApp.newTrigger('processForm')
