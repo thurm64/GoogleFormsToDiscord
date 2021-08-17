@@ -1,0 +1,28 @@
+var options = {
+  /* ===== Configuration options ===== */
+  // Discord Webhook URL
+  webhook_url: "",
+  // Google Form URL
+  form_url: "",
+
+  /* Keyword options */
+  // This word or phrase will be used to determine the question asking for the discord tag.
+  tag_question_keyword: "discord tag",
+
+  /* ===== Customization options ===== */
+  /* == Embed options == */
+  // Custom username
+  username: "Staff Applications",
+  // Custom profile picture
+  profile_picture: "https://i.imgur.com/4M34hi2.png",
+  // Custom embed color
+  color: "FF00FF",
+  /* == Text formatting options == */
+  title_format: "Staff Application",
+  // Description: %name will be replaced by the user's id.
+  description_format: "** Submitted by: %name **",
+  // Question: %question will be replaced by the question.
+  question_format: "__%question__",
+  // Answer: %answer will be replaced by the answer.
+  answer_format: "> %answer",
+}
