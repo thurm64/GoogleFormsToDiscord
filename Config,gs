@@ -24,5 +24,5 @@ var options = {
   // Question: %question will be replaced by the question.
   question_format: "__%question__",
   // Answer: %answer will be replaced by the answer.
-  answer_format: "> %answer",
+  answer_format: "> %answer"
 }
