@@ -3,6 +3,7 @@
 
 ### Using the project
 #### Instructions
+#### Youtube tutorial: https://youtu.be/7fJad9uJcGQ
 **!!! IMPORTANT: MAKE SURE TO SAVE FILES WHEN CHANGING THEM IN THE SCRIPT EDITOR !!!**
 - In the Google Form that you want to add, click on the three dots, then click on "Script editor"
 - In the editor, paste the code in from Code.gs
